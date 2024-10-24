@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #e7bece;
+    color: rgb(233, 176, 198)46, 98, 98);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Secciones con diferentes colores de fondo */
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Colores para cada sección */
+#inicio {
+    background-color: #ffcccb; /* Rosa claro */
+}
+
+#sobre-nosotros {
+    background-color: #add8e6; /* Azul claro */
+}
+
+#mision {
+    background-color: #90ee90; /* Verde claro */
+}
+
+#vision {
+    background-color: #fffacd; /* Amarillo claro */
+}
+
+#productos {
+    background-color: #d3d3d3; /* Gris claro */
+}
+
+#contacto {
+    background-color: #ffb6c1; /* Rosa claro */
+}
+
+h2 {
+    color: #ff5733;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Cambiado a 'relative' para evitar problemas de posición */
+    width: 100%;
+    bottom: 0;
+}
